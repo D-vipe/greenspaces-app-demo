@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/d-vipe/GitLab/gisogs_greenspacesapp/build/geolocator_android/intermediates/merged_res/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/d-vipe/.gradle/caches/transforms-3/be3bcd0517804dbf961632d266e82a94/transformed/core-1.9.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/d-vipe/GitLab/gisogs_greenspacesapp/build/geolocator_android/intermediates/merged_res/release/layout-v21/notification_action.xml",
+        "source": "/Users/d-vipe/.gradle/caches/transforms-3/be3bcd0517804dbf961632d266e82a94/transformed/core-1.9.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/d-vipe/GitLab/gisogs_greenspacesapp/build/geolocator_android/intermediates/merged_res/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/d-vipe/.gradle/caches/transforms-3/be3bcd0517804dbf961632d266e82a94/transformed/core-1.9.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/d-vipe/GitLab/gisogs_greenspacesapp/build/geolocator_android/intermediates/merged_res/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/d-vipe/.gradle/caches/transforms-3/be3bcd0517804dbf961632d266e82a94/transformed/core-1.9.0/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

@@ -1,0 +1,253 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ru.runetsoft.gisogs_greenspacesapp"
+4    android:versionCode="6"
+5    android:versionName="1.0.6" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+8-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:2:5-66
+11-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:2:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:3:5-80
+12-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:3:22-78
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:4:5-79
+13-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:4:22-76
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:5:5-81
+14-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:5:22-78
+15    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+15-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:6:5-85
+15-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:6:22-82
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+16-->[:geolocator_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-77
+16-->[:geolocator_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-74
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->[:file_picker] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-80
+17-->[:file_picker] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-77
+18
+19    <queries>
+19-->[:file_picker] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-17:15
+20        <intent>
+20-->[:file_picker] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:18
+21            <action android:name="android.intent.action.GET_CONTENT" />
+21-->[:file_picker] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-72
+21-->[:file_picker] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:21-69
+22
+23            <data android:mimeType="*/*" />
+23-->[:file_picker] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+23-->[:file_picker] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:19-41
+24        </intent>
+25    </queries>
+26
+27    <uses-permission android:name="android.permission.CAMERA" />
+27-->[:camera_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/camera_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-65
+27-->[:camera_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/camera_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-62
+28    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+28-->[:camera_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/camera_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-71
+28-->[:camera_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/camera_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-68
+29    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+29-->[com.google.firebase:firebase-installations:17.1.3] /Users/d-vipe/.gradle/caches/transforms-3/0968305764a46605064b33f50c2d55fb/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:9:5-79
+29-->[com.google.firebase:firebase-installations:17.1.3] /Users/d-vipe/.gradle/caches/transforms-3/0968305764a46605064b33f50c2d55fb/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:9:22-76
+30
+31    <permission
+31-->[androidx.core:core:1.9.0] /Users/d-vipe/.gradle/caches/transforms-3/be3bcd0517804dbf961632d266e82a94/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+32        android:name="ru.runetsoft.gisogs_greenspacesapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+32-->[androidx.core:core:1.9.0] /Users/d-vipe/.gradle/caches/transforms-3/be3bcd0517804dbf961632d266e82a94/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+33        android:protectionLevel="signature" />
+33-->[androidx.core:core:1.9.0] /Users/d-vipe/.gradle/caches/transforms-3/be3bcd0517804dbf961632d266e82a94/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+34
+35    <uses-permission android:name="ru.runetsoft.gisogs_greenspacesapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+35-->[androidx.core:core:1.9.0] /Users/d-vipe/.gradle/caches/transforms-3/be3bcd0517804dbf961632d266e82a94/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+35-->[androidx.core:core:1.9.0] /Users/d-vipe/.gradle/caches/transforms-3/be3bcd0517804dbf961632d266e82a94/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+36
+37    <application
+38        android:name="android.app.Application"
+38-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:8:9-42
+39        android:allowBackup="false"
+39-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:11:9-36
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.9.0] /Users/d-vipe/.gradle/caches/transforms-3/be3bcd0517804dbf961632d266e82a94/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+41        android:extractNativeLibs="false"
+42        android:icon="@mipmap/ic_launcher"
+42-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:9:9-43
+43        android:label="ОГС. Порубочные билеты"
+43-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:7:18-56
+44        android:protectionLevel="signature" >
+44-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:10:9-44
+45        <activity
+45-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:12:9-28:20
+46            android:name="ru.runetsoft.gisogs_greenspacesapp.MainActivity"
+46-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:12:19-47
+47            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+47-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:15:13-163
+48            android:exported="true"
+48-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:12:48-71
+49            android:hardwareAccelerated="true"
+49-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:16:13-47
+50            android:launchMode="singleTop"
+50-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:13:13-43
+51            android:theme="@style/LaunchTheme"
+51-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:14:13-47
+52            android:windowSoftInputMode="adjustResize" >
+52-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:17:13-55
+53
+54            <!--
+55                 Specifies an Android theme to apply to this Activity as soon as
+56                 the Android process has started. This theme is visible to the user
+57                 while the Flutter UI initializes. After that, this theme continues
+58                 to determine the Window background behind the Flutter UI.
+59            -->
+60            <meta-data
+60-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:22:13-23:57
+61                android:name="io.flutter.embedding.android.NormalTheme"
+61-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:22:24-79
+62                android:resource="@style/NormalTheme" />
+62-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:23:17-54
+63
+64            <intent-filter>
+64-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:24:13-27:29
+65                <action android:name="android.intent.action.MAIN" />
+65-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:25:17-68
+65-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:25:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:26:17-76
+67-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:26:27-74
+68            </intent-filter>
+69        </activity>
+70        <!--
+71             Don't delete the meta-data below.
+72             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+73        -->
+74        <meta-data
+74-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:31:9-72
+75            android:name="flutterEmbedding"
+75-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:31:20-51
+76            android:value="2" />
+76-->/Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:31:52-69
+77
+78        <service
+78-->[:firebase_crashlytics] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+79            android:name="com.google.firebase.components.ComponentDiscoveryService"
+79-->[:firebase_crashlytics] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+80            android:directBootAware="true"
+80-->[com.google.firebase:firebase-common:20.3.2] /Users/d-vipe/.gradle/caches/transforms-3/7cc20a6818a23c6cd5242411cee7776a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:34:13-43
+81            android:exported="false" >
+81-->[com.google.firebase:firebase-crashlytics:18.3.6] /Users/d-vipe/.gradle/caches/transforms-3/b52b0969862e32513837f7c262358ec8/transformed/jetified-firebase-crashlytics-18.3.6/AndroidManifest.xml:16:13-37
+82            <meta-data
+82-->[:firebase_crashlytics] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+83                android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar"
+83-->[:firebase_crashlytics] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-130
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[:firebase_crashlytics] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+85            <meta-data
+85-->[:firebase_core] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+86                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+86-->[:firebase_core] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[:firebase_core] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+88            <meta-data
+88-->[com.google.firebase:firebase-crashlytics:18.3.6] /Users/d-vipe/.gradle/caches/transforms-3/b52b0969862e32513837f7c262358ec8/transformed/jetified-firebase-crashlytics-18.3.6/AndroidManifest.xml:17:13-19:85
+89                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+89-->[com.google.firebase:firebase-crashlytics:18.3.6] /Users/d-vipe/.gradle/caches/transforms-3/b52b0969862e32513837f7c262358ec8/transformed/jetified-firebase-crashlytics-18.3.6/AndroidManifest.xml:18:17-115
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-crashlytics:18.3.6] /Users/d-vipe/.gradle/caches/transforms-3/b52b0969862e32513837f7c262358ec8/transformed/jetified-firebase-crashlytics-18.3.6/AndroidManifest.xml:19:17-82
+91            <meta-data
+91-->[com.google.firebase:firebase-installations:17.1.3] /Users/d-vipe/.gradle/caches/transforms-3/0968305764a46605064b33f50c2d55fb/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+92                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+92-->[com.google.firebase:firebase-installations:17.1.3] /Users/d-vipe/.gradle/caches/transforms-3/0968305764a46605064b33f50c2d55fb/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.firebase:firebase-installations:17.1.3] /Users/d-vipe/.gradle/caches/transforms-3/0968305764a46605064b33f50c2d55fb/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+94        </service>
+95        <service
+95-->[:geolocator_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:56
+96            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+96-->[:geolocator_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-77
+97            android:enabled="true"
+97-->[:geolocator_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-35
+98            android:exported="false"
+98-->[:geolocator_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-37
+99            android:foregroundServiceType="location" />
+99-->[:geolocator_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-53
+100
+101        <uses-library
+101-->[androidx.window:window:1.0.0-beta04] /Users/d-vipe/.gradle/caches/transforms-3/955b60c573648c92758f9e57794bc3b1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+102            android:name="androidx.window.extensions"
+102-->[androidx.window:window:1.0.0-beta04] /Users/d-vipe/.gradle/caches/transforms-3/955b60c573648c92758f9e57794bc3b1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+103            android:required="false" />
+103-->[androidx.window:window:1.0.0-beta04] /Users/d-vipe/.gradle/caches/transforms-3/955b60c573648c92758f9e57794bc3b1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+104        <uses-library
+104-->[androidx.window:window:1.0.0-beta04] /Users/d-vipe/.gradle/caches/transforms-3/955b60c573648c92758f9e57794bc3b1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+105            android:name="androidx.window.sidecar"
+105-->[androidx.window:window:1.0.0-beta04] /Users/d-vipe/.gradle/caches/transforms-3/955b60c573648c92758f9e57794bc3b1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+106            android:required="false" />
+106-->[androidx.window:window:1.0.0-beta04] /Users/d-vipe/.gradle/caches/transforms-3/955b60c573648c92758f9e57794bc3b1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+107
+108        <provider
+108-->[com.google.firebase:firebase-common:20.3.2] /Users/d-vipe/.gradle/caches/transforms-3/7cc20a6818a23c6cd5242411cee7776a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+109            android:name="com.google.firebase.provider.FirebaseInitProvider"
+109-->[com.google.firebase:firebase-common:20.3.2] /Users/d-vipe/.gradle/caches/transforms-3/7cc20a6818a23c6cd5242411cee7776a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+110            android:authorities="ru.runetsoft.gisogs_greenspacesapp.firebaseinitprovider"
+110-->[com.google.firebase:firebase-common:20.3.2] /Users/d-vipe/.gradle/caches/transforms-3/7cc20a6818a23c6cd5242411cee7776a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+111            android:directBootAware="true"
+111-->[com.google.firebase:firebase-common:20.3.2] /Users/d-vipe/.gradle/caches/transforms-3/7cc20a6818a23c6cd5242411cee7776a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+112            android:exported="false"
+112-->[com.google.firebase:firebase-common:20.3.2] /Users/d-vipe/.gradle/caches/transforms-3/7cc20a6818a23c6cd5242411cee7776a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+113            android:initOrder="100" />
+113-->[com.google.firebase:firebase-common:20.3.2] /Users/d-vipe/.gradle/caches/transforms-3/7cc20a6818a23c6cd5242411cee7776a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+114
+115        <activity
+115-->[com.google.android.gms:play-services-base:18.1.0] /Users/d-vipe/.gradle/caches/transforms-3/e002b9e8ecfab01cd0dd857cf529885c/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+116            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+116-->[com.google.android.gms:play-services-base:18.1.0] /Users/d-vipe/.gradle/caches/transforms-3/e002b9e8ecfab01cd0dd857cf529885c/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+117            android:exported="false"
+117-->[com.google.android.gms:play-services-base:18.1.0] /Users/d-vipe/.gradle/caches/transforms-3/e002b9e8ecfab01cd0dd857cf529885c/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+118            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+118-->[com.google.android.gms:play-services-base:18.1.0] /Users/d-vipe/.gradle/caches/transforms-3/e002b9e8ecfab01cd0dd857cf529885c/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+119
+120        <meta-data
+120-->[com.google.android.gms:play-services-basement:18.1.0] /Users/d-vipe/.gradle/caches/transforms-3/c9cacd907e5688cdd5c033c7071b8609/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+121            android:name="com.google.android.gms.version"
+121-->[com.google.android.gms:play-services-basement:18.1.0] /Users/d-vipe/.gradle/caches/transforms-3/c9cacd907e5688cdd5c033c7071b8609/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+122            android:value="@integer/google_play_services_version" />
+122-->[com.google.android.gms:play-services-basement:18.1.0] /Users/d-vipe/.gradle/caches/transforms-3/c9cacd907e5688cdd5c033c7071b8609/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+123
+124        <service
+124-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/52b1d20a948af2da182f5eed49df9a19/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+125            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+125-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/52b1d20a948af2da182f5eed49df9a19/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+126            android:exported="false" >
+126-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/52b1d20a948af2da182f5eed49df9a19/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+127            <meta-data
+127-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/52b1d20a948af2da182f5eed49df9a19/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+128                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+128-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/52b1d20a948af2da182f5eed49df9a19/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+129                android:value="cct" />
+129-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/52b1d20a948af2da182f5eed49df9a19/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+130        </service>
+131        <service
+131-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/8436ed9d1d7abfe1f8673feeea5d64bb/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+132            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+132-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/8436ed9d1d7abfe1f8673feeea5d64bb/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+133            android:exported="false"
+133-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/8436ed9d1d7abfe1f8673feeea5d64bb/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+134            android:permission="android.permission.BIND_JOB_SERVICE" >
+134-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/8436ed9d1d7abfe1f8673feeea5d64bb/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+135        </service>
+136
+137        <receiver
+137-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/8436ed9d1d7abfe1f8673feeea5d64bb/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+138            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+138-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/8436ed9d1d7abfe1f8673feeea5d64bb/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
+139            android:exported="false" />
+139-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/8436ed9d1d7abfe1f8673feeea5d64bb/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+140    </application>
+141
+142</manifest>

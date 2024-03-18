@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/d-vipe/GitLab/gisogs_greenspacesapp/build/gallery_saver/intermediates/merged_res/release/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/d-vipe/.gradle/caches/transforms-3/c2e14599269b2391e76693c9a1bc1bcf/transformed/media-1.0.0/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/d-vipe/GitLab/gisogs_greenspacesapp/build/gallery_saver/intermediates/merged_res/release/layout/notification_media_action.xml",
+        "source": "/Users/d-vipe/.gradle/caches/transforms-3/c2e14599269b2391e76693c9a1bc1bcf/transformed/media-1.0.0/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/d-vipe/GitLab/gisogs_greenspacesapp/build/gallery_saver/intermediates/merged_res/release/layout/notification_template_big_media.xml",
+        "source": "/Users/d-vipe/.gradle/caches/transforms-3/c2e14599269b2391e76693c9a1bc1bcf/transformed/media-1.0.0/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/d-vipe/GitLab/gisogs_greenspacesapp/build/gallery_saver/intermediates/merged_res/release/layout/notification_template_lines_media.xml",
+        "source": "/Users/d-vipe/.gradle/caches/transforms-3/c2e14599269b2391e76693c9a1bc1bcf/transformed/media-1.0.0/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/Users/d-vipe/GitLab/gisogs_greenspacesapp/build/gallery_saver/intermediates/merged_res/release/layout/custom_dialog.xml",
+        "source": "/Users/d-vipe/.gradle/caches/transforms-3/b9bc6fe7e68b936078e9cb8cf0d38b93/transformed/core-1.6.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/d-vipe/GitLab/gisogs_greenspacesapp/build/gallery_saver/intermediates/merged_res/release/layout/notification_template_media.xml",
+        "source": "/Users/d-vipe/.gradle/caches/transforms-3/c2e14599269b2391e76693c9a1bc1bcf/transformed/media-1.0.0/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/d-vipe/GitLab/gisogs_greenspacesapp/build/gallery_saver/intermediates/merged_res/release/layout/notification_template_big_media_custom.xml",
+        "source": "/Users/d-vipe/.gradle/caches/transforms-3/c2e14599269b2391e76693c9a1bc1bcf/transformed/media-1.0.0/res/layout/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/d-vipe/GitLab/gisogs_greenspacesapp/build/gallery_saver/intermediates/merged_res/release/layout/notification_template_part_time.xml",
+        "source": "/Users/d-vipe/.gradle/caches/transforms-3/b9bc6fe7e68b936078e9cb8cf0d38b93/transformed/core-1.6.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/d-vipe/GitLab/gisogs_greenspacesapp/build/gallery_saver/intermediates/merged_res/release/layout/notification_media_cancel_action.xml",
+        "source": "/Users/d-vipe/.gradle/caches/transforms-3/c2e14599269b2391e76693c9a1bc1bcf/transformed/media-1.0.0/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/d-vipe/GitLab/gisogs_greenspacesapp/build/gallery_saver/intermediates/merged_res/release/layout/notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/d-vipe/.gradle/caches/transforms-3/c2e14599269b2391e76693c9a1bc1bcf/transformed/media-1.0.0/res/layout/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/d-vipe/GitLab/gisogs_greenspacesapp/build/gallery_saver/intermediates/merged_res/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/d-vipe/.gradle/caches/transforms-3/b9bc6fe7e68b936078e9cb8cf0d38b93/transformed/core-1.6.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/d-vipe/GitLab/gisogs_greenspacesapp/build/gallery_saver/intermediates/merged_res/release/layout/notification_template_media_custom.xml",
+        "source": "/Users/d-vipe/.gradle/caches/transforms-3/c2e14599269b2391e76693c9a1bc1bcf/transformed/media-1.0.0/res/layout/notification_template_media_custom.xml"
+    }
+]

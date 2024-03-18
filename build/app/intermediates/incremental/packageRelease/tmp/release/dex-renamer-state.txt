@@ -1,0 +1,4 @@
+#Wed Nov 15 18:45:19 MSK 2023
+base.0=/Users/d-vipe/GitLab/gisogs_greenspacesapp/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

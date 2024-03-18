@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/d-vipe/GitLab/gisogs_greenspacesapp/build/geolocator_android/intermediates/merged_res/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/d-vipe/.gradle/caches/transforms-3/e002b9e8ecfab01cd0dd857cf529885c/transformed/jetified-play-services-base-18.1.0/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/d-vipe/GitLab/gisogs_greenspacesapp/build/geolocator_android/intermediates/merged_res/release/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/d-vipe/.gradle/caches/transforms-3/e002b9e8ecfab01cd0dd857cf529885c/transformed/jetified-play-services-base-18.1.0/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/Users/d-vipe/GitLab/gisogs_greenspacesapp/build/geolocator_android/intermediates/merged_res/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/d-vipe/.gradle/caches/transforms-3/e002b9e8ecfab01cd0dd857cf529885c/transformed/jetified-play-services-base-18.1.0/res/color/common_google_signin_btn_text_light.xml"
+    }
+]

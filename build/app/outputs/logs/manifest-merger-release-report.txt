@@ -1,0 +1,526 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:7:5-32:19
+MERGED from [:firebase_crashlytics] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_crashlytics] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:geolocator_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-17:19
+MERGED from [:geolocator_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-17:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/d-vipe/.gradle/caches/transforms-3/955b60c573648c92758f9e57794bc3b1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/d-vipe/.gradle/caches/transforms-3/955b60c573648c92758f9e57794bc3b1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.6] /Users/d-vipe/.gradle/caches/transforms-3/b52b0969862e32513837f7c262358ec8/transformed/jetified-firebase-crashlytics-18.3.6/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.6] /Users/d-vipe/.gradle/caches/transforms-3/b52b0969862e32513837f7c262358ec8/transformed/jetified-firebase-crashlytics-18.3.6/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/d-vipe/.gradle/caches/transforms-3/0968305764a46605064b33f50c2d55fb/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/d-vipe/.gradle/caches/transforms-3/0968305764a46605064b33f50c2d55fb/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/d-vipe/.gradle/caches/transforms-3/7cc20a6818a23c6cd5242411cee7776a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/d-vipe/.gradle/caches/transforms-3/7cc20a6818a23c6cd5242411cee7776a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/d-vipe/.gradle/caches/transforms-3/847e60e3c8282cab958a7ed034fb4d99/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/d-vipe/.gradle/caches/transforms-3/847e60e3c8282cab958a7ed034fb4d99/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/d-vipe/.gradle/caches/transforms-3/e002b9e8ecfab01cd0dd857cf529885c/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/d-vipe/.gradle/caches/transforms-3/e002b9e8ecfab01cd0dd857cf529885c/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/d-vipe/.gradle/caches/transforms-3/8ddc5bc08dc5f909ed69e20c12fb5726/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/d-vipe/.gradle/caches/transforms-3/8ddc5bc08dc5f909ed69e20c12fb5726/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.2] /Users/d-vipe/.gradle/caches/transforms-3/5d753de49e92f56d1ef25cc3ba570e3a/transformed/jetified-firebase-measurement-connector-18.0.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.2] /Users/d-vipe/.gradle/caches/transforms-3/5d753de49e92f56d1ef25cc3ba570e3a/transformed/jetified-firebase-measurement-connector-18.0.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/d-vipe/.gradle/caches/transforms-3/c9cacd907e5688cdd5c033c7071b8609/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/d-vipe/.gradle/caches/transforms-3/c9cacd907e5688cdd5c033c7071b8609/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.github.bumptech.glide:glide:4.14.2] /Users/d-vipe/.gradle/caches/transforms-3/68304ee6bb5e2b4a2abda5dbcc091447/transformed/jetified-glide-4.14.2/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.14.2] /Users/d-vipe/.gradle/caches/transforms-3/68304ee6bb5e2b4a2abda5dbcc091447/transformed/jetified-glide-4.14.2/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.9.0] /Users/d-vipe/.gradle/caches/transforms-3/be3bcd0517804dbf961632d266e82a94/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] /Users/d-vipe/.gradle/caches/transforms-3/be3bcd0517804dbf961632d266e82a94/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/d-vipe/.gradle/caches/transforms-3/a0bf7e4cc5240c36f8fb35fd3bd8b61e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/d-vipe/.gradle/caches/transforms-3/a0bf7e4cc5240c36f8fb35fd3bd8b61e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /Users/d-vipe/.gradle/caches/transforms-3/310e275f45d3d088e2dcb98c24bd94c7/transformed/jetified-gifdecoder-4.14.2/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /Users/d-vipe/.gradle/caches/transforms-3/310e275f45d3d088e2dcb98c24bd94c7/transformed/jetified-gifdecoder-4.14.2/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/52b1d20a948af2da182f5eed49df9a19/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/52b1d20a948af2da182f5eed49df9a19/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/8436ed9d1d7abfe1f8673feeea5d64bb/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/8436ed9d1d7abfe1f8673feeea5d64bb/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:25:5-39:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] /Users/d-vipe/.gradle/caches/transforms-3/be3bcd0517804dbf961632d266e82a94/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:7:18-56
+	android:protectionLevel
+		ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:10:9-44
+	android:icon
+		ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:11:9-36
+	android:name
+		INJECTED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:8:9-42
+manifest
+ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:1:1-33:12
+MERGED from [:firebase_crashlytics] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_core] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:open_settings] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/open_settings/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:geolocator_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-19:12
+MERGED from [:file_picker] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-19:12
+MERGED from [:camera_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/camera_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-12:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_compass] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/flutter_compass/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:sqflite] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/sqflite/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:path_provider_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_native_splash] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/flutter_native_splash/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:shared_preferences_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:photo_manager] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/photo_manager/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:gallery_saver] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/gallery_saver/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/d-vipe/.gradle/caches/transforms-3/23c392353e0cca0de6c904faceea106d/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/d-vipe/.gradle/caches/transforms-3/955b60c573648c92758f9e57794bc3b1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.6] /Users/d-vipe/.gradle/caches/transforms-3/b52b0969862e32513837f7c262358ec8/transformed/jetified-firebase-crashlytics-18.3.6/AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/d-vipe/.gradle/caches/transforms-3/0968305764a46605064b33f50c2d55fb/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/d-vipe/.gradle/caches/transforms-3/7cc20a6818a23c6cd5242411cee7776a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:15:1-39:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/473f3ebdb7a3ea3109850177013b51ad/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/d-vipe/.gradle/caches/transforms-3/847e60e3c8282cab958a7ed034fb4d99/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/d-vipe/.gradle/caches/transforms-3/e002b9e8ecfab01cd0dd857cf529885c/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/d-vipe/.gradle/caches/transforms-3/7ebeb294e942a852c7bc76c6bb27576c/transformed/jetified-firebase-installations-interop-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/d-vipe/.gradle/caches/transforms-3/8ddc5bc08dc5f909ed69e20c12fb5726/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.2] /Users/d-vipe/.gradle/caches/transforms-3/5d753de49e92f56d1ef25cc3ba570e3a/transformed/jetified-firebase-measurement-connector-18.0.2/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/d-vipe/.gradle/caches/transforms-3/c9cacd907e5688cdd5c033c7071b8609/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/d-vipe/.gradle/caches/transforms-3/0b0199a1659bf41dd7e612fb39c3f982/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.bumptech.glide:glide:4.14.2] /Users/d-vipe/.gradle/caches/transforms-3/68304ee6bb5e2b4a2abda5dbcc091447/transformed/jetified-glide-4.14.2/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/d-vipe/.gradle/caches/transforms-3/041e56d6bf67845bb11490d9627c205b/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/c2e14599269b2391e76693c9a1bc1bcf/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/9f82a31ed042ff8f3d370ada825e23df/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/86f6b7a2744d06bc51c0a9be6727676f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/9408a3568bcf191735df0a954f64c452/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/7a717d777a7e0c2023ad13866a53af5d/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/d-vipe/.gradle/caches/transforms-3/7850343734872a6d0dc3fd6ab974a5ad/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/d-vipe/.gradle/caches/transforms-3/0dc232bbcd115d677d405ab2baface0a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/d-vipe/.gradle/caches/transforms-3/175ae2114816b6c061689f296467506a/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/3628429254f0b1e7b33949209051459e/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/bd33d853c339ddb119ca70a280d5f4ff/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/5aab4abaa9acda6ce670d9cda5a3456a/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/3067c8df7349662aabbadb2837ceb381/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/f1ce7ce2cb60c1576b7005a472345f47/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/448461fd02370dfed19bafe35eb069fa/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.9.0] /Users/d-vipe/.gradle/caches/transforms-3/be3bcd0517804dbf961632d266e82a94/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.5] /Users/d-vipe/.gradle/caches/transforms-3/81ab9f1beba5b2a483dcacd359a2b720/transformed/exifinterface-1.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/3e9f4633245215c273c1712f52e32569/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/d-vipe/.gradle/caches/transforms-3/9d72bd4f586e449ba3f5b7f516cbb27a/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/d-vipe/.gradle/caches/transforms-3/a0bf7e4cc5240c36f8fb35fd3bd8b61e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /Users/d-vipe/.gradle/caches/transforms-3/310e275f45d3d088e2dcb98c24bd94c7/transformed/jetified-gifdecoder-4.14.2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/52b1d20a948af2da182f5eed49df9a19/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/d-vipe/.gradle/caches/transforms-3/eb5698a96c8d1a12bcd80db9cdd3e8ba/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/d-vipe/.gradle/caches/transforms-3/0bce41527ecfababc59889d85d1f4307/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/8436ed9d1d7abfe1f8673feeea5d64bb/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/d-vipe/.gradle/caches/transforms-3/7b6c5bcede39145616a837b29d63d5ce/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/d-vipe/.gradle/caches/transforms-3/1b6cc83af261acfeb76c8919cd25ae0e/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/d-vipe/.gradle/caches/transforms-3/c5bd0717b3b5f2efa6c59fdbef87a960/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/d-vipe/.gradle/caches/transforms-3/1617e30e2f9e2d32ff9fe435f6732d84/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/d-vipe/.gradle/caches/transforms-3/b7b7b1f7f69a9e1f6e7e31e3ab89b610/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/d-vipe/.gradle/caches/transforms-3/ed402d05172dd4e7af86a48e73fe5061/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/d-vipe/.gradle/caches/transforms-3/49792711d5a3e1e8a5125d67813f3f0b/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/a23822c5bdf431da63805dccbf6768dd/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/04d54d3faf4fdb384f9ccc80000fa374/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/52cfc28261bcc261c999aa7c0876b0ef/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/9cc7f8dc3449db46289ee7aec82110cb/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/dbca10d1db0ddd871189b27b8c183a0a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/d-vipe/.gradle/caches/transforms-3/0aecff7ac5377ecc85162c1512e696bf/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:1:1-33:12
+	package
+		ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:1:70-114
+		INJECTED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		INJECTED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		INJECTED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:2:5-66
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.6] /Users/d-vipe/.gradle/caches/transforms-3/b52b0969862e32513837f7c262358ec8/transformed/jetified-firebase-crashlytics-18.3.6/AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.6] /Users/d-vipe/.gradle/caches/transforms-3/b52b0969862e32513837f7c262358ec8/transformed/jetified-firebase-crashlytics-18.3.6/AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/d-vipe/.gradle/caches/transforms-3/0968305764a46605064b33f50c2d55fb/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/d-vipe/.gradle/caches/transforms-3/0968305764a46605064b33f50c2d55fb/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/52b1d20a948af2da182f5eed49df9a19/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/52b1d20a948af2da182f5eed49df9a19/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:2:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:3:5-80
+	android:name
+		ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:3:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:4:5-79
+	android:name
+		ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:4:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:6:5-85
+	android:name
+		ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:6:22-82
+uses-sdk
+INJECTED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml
+MERGED from [:firebase_crashlytics] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_crashlytics] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:open_settings] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/open_settings/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:open_settings] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/open_settings/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:geolocator_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:geolocator_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:file_picker] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:file_picker] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:camera_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/camera_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:camera_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/camera_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_compass] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/flutter_compass/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_compass] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/flutter_compass/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/sqflite/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/sqflite/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_native_splash] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/flutter_native_splash/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_native_splash] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/flutter_native_splash/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:photo_manager] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/photo_manager/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:photo_manager] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/photo_manager/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:gallery_saver] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/gallery_saver/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:gallery_saver] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/gallery_saver/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/d-vipe/.gradle/caches/transforms-3/23c392353e0cca0de6c904faceea106d/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/d-vipe/.gradle/caches/transforms-3/23c392353e0cca0de6c904faceea106d/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/d-vipe/.gradle/caches/transforms-3/955b60c573648c92758f9e57794bc3b1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/d-vipe/.gradle/caches/transforms-3/955b60c573648c92758f9e57794bc3b1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.6] /Users/d-vipe/.gradle/caches/transforms-3/b52b0969862e32513837f7c262358ec8/transformed/jetified-firebase-crashlytics-18.3.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.6] /Users/d-vipe/.gradle/caches/transforms-3/b52b0969862e32513837f7c262358ec8/transformed/jetified-firebase-crashlytics-18.3.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/d-vipe/.gradle/caches/transforms-3/0968305764a46605064b33f50c2d55fb/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/d-vipe/.gradle/caches/transforms-3/0968305764a46605064b33f50c2d55fb/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/d-vipe/.gradle/caches/transforms-3/7cc20a6818a23c6cd5242411cee7776a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/d-vipe/.gradle/caches/transforms-3/7cc20a6818a23c6cd5242411cee7776a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/473f3ebdb7a3ea3109850177013b51ad/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/473f3ebdb7a3ea3109850177013b51ad/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/d-vipe/.gradle/caches/transforms-3/847e60e3c8282cab958a7ed034fb4d99/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/d-vipe/.gradle/caches/transforms-3/847e60e3c8282cab958a7ed034fb4d99/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/d-vipe/.gradle/caches/transforms-3/e002b9e8ecfab01cd0dd857cf529885c/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/d-vipe/.gradle/caches/transforms-3/e002b9e8ecfab01cd0dd857cf529885c/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/d-vipe/.gradle/caches/transforms-3/7ebeb294e942a852c7bc76c6bb27576c/transformed/jetified-firebase-installations-interop-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/d-vipe/.gradle/caches/transforms-3/7ebeb294e942a852c7bc76c6bb27576c/transformed/jetified-firebase-installations-interop-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/d-vipe/.gradle/caches/transforms-3/8ddc5bc08dc5f909ed69e20c12fb5726/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/d-vipe/.gradle/caches/transforms-3/8ddc5bc08dc5f909ed69e20c12fb5726/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.2] /Users/d-vipe/.gradle/caches/transforms-3/5d753de49e92f56d1ef25cc3ba570e3a/transformed/jetified-firebase-measurement-connector-18.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.2] /Users/d-vipe/.gradle/caches/transforms-3/5d753de49e92f56d1ef25cc3ba570e3a/transformed/jetified-firebase-measurement-connector-18.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/d-vipe/.gradle/caches/transforms-3/c9cacd907e5688cdd5c033c7071b8609/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/d-vipe/.gradle/caches/transforms-3/c9cacd907e5688cdd5c033c7071b8609/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/d-vipe/.gradle/caches/transforms-3/0b0199a1659bf41dd7e612fb39c3f982/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/d-vipe/.gradle/caches/transforms-3/0b0199a1659bf41dd7e612fb39c3f982/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:glide:4.14.2] /Users/d-vipe/.gradle/caches/transforms-3/68304ee6bb5e2b4a2abda5dbcc091447/transformed/jetified-glide-4.14.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.14.2] /Users/d-vipe/.gradle/caches/transforms-3/68304ee6bb5e2b4a2abda5dbcc091447/transformed/jetified-glide-4.14.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/d-vipe/.gradle/caches/transforms-3/041e56d6bf67845bb11490d9627c205b/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/d-vipe/.gradle/caches/transforms-3/041e56d6bf67845bb11490d9627c205b/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/c2e14599269b2391e76693c9a1bc1bcf/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/c2e14599269b2391e76693c9a1bc1bcf/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/9f82a31ed042ff8f3d370ada825e23df/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/9f82a31ed042ff8f3d370ada825e23df/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/86f6b7a2744d06bc51c0a9be6727676f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/86f6b7a2744d06bc51c0a9be6727676f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/9408a3568bcf191735df0a954f64c452/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/9408a3568bcf191735df0a954f64c452/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/7a717d777a7e0c2023ad13866a53af5d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/7a717d777a7e0c2023ad13866a53af5d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.2.4] /Users/d-vipe/.gradle/caches/transforms-3/7850343734872a6d0dc3fd6ab974a5ad/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/d-vipe/.gradle/caches/transforms-3/7850343734872a6d0dc3fd6ab974a5ad/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/d-vipe/.gradle/caches/transforms-3/0dc232bbcd115d677d405ab2baface0a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/d-vipe/.gradle/caches/transforms-3/0dc232bbcd115d677d405ab2baface0a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/d-vipe/.gradle/caches/transforms-3/175ae2114816b6c061689f296467506a/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/d-vipe/.gradle/caches/transforms-3/175ae2114816b6c061689f296467506a/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/3628429254f0b1e7b33949209051459e/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/3628429254f0b1e7b33949209051459e/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/bd33d853c339ddb119ca70a280d5f4ff/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/bd33d853c339ddb119ca70a280d5f4ff/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/5aab4abaa9acda6ce670d9cda5a3456a/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/5aab4abaa9acda6ce670d9cda5a3456a/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/3067c8df7349662aabbadb2837ceb381/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/3067c8df7349662aabbadb2837ceb381/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/f1ce7ce2cb60c1576b7005a472345f47/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/f1ce7ce2cb60c1576b7005a472345f47/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/448461fd02370dfed19bafe35eb069fa/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/448461fd02370dfed19bafe35eb069fa/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /Users/d-vipe/.gradle/caches/transforms-3/be3bcd0517804dbf961632d266e82a94/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /Users/d-vipe/.gradle/caches/transforms-3/be3bcd0517804dbf961632d266e82a94/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.5] /Users/d-vipe/.gradle/caches/transforms-3/81ab9f1beba5b2a483dcacd359a2b720/transformed/exifinterface-1.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.5] /Users/d-vipe/.gradle/caches/transforms-3/81ab9f1beba5b2a483dcacd359a2b720/transformed/exifinterface-1.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/3e9f4633245215c273c1712f52e32569/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/3e9f4633245215c273c1712f52e32569/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/d-vipe/.gradle/caches/transforms-3/9d72bd4f586e449ba3f5b7f516cbb27a/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/d-vipe/.gradle/caches/transforms-3/9d72bd4f586e449ba3f5b7f516cbb27a/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/d-vipe/.gradle/caches/transforms-3/a0bf7e4cc5240c36f8fb35fd3bd8b61e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/d-vipe/.gradle/caches/transforms-3/a0bf7e4cc5240c36f8fb35fd3bd8b61e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /Users/d-vipe/.gradle/caches/transforms-3/310e275f45d3d088e2dcb98c24bd94c7/transformed/jetified-gifdecoder-4.14.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /Users/d-vipe/.gradle/caches/transforms-3/310e275f45d3d088e2dcb98c24bd94c7/transformed/jetified-gifdecoder-4.14.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/52b1d20a948af2da182f5eed49df9a19/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/52b1d20a948af2da182f5eed49df9a19/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/d-vipe/.gradle/caches/transforms-3/eb5698a96c8d1a12bcd80db9cdd3e8ba/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/d-vipe/.gradle/caches/transforms-3/eb5698a96c8d1a12bcd80db9cdd3e8ba/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/d-vipe/.gradle/caches/transforms-3/0bce41527ecfababc59889d85d1f4307/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/d-vipe/.gradle/caches/transforms-3/0bce41527ecfababc59889d85d1f4307/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/8436ed9d1d7abfe1f8673feeea5d64bb/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/8436ed9d1d7abfe1f8673feeea5d64bb/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/d-vipe/.gradle/caches/transforms-3/7b6c5bcede39145616a837b29d63d5ce/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/d-vipe/.gradle/caches/transforms-3/7b6c5bcede39145616a837b29d63d5ce/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/d-vipe/.gradle/caches/transforms-3/1b6cc83af261acfeb76c8919cd25ae0e/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/d-vipe/.gradle/caches/transforms-3/1b6cc83af261acfeb76c8919cd25ae0e/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/d-vipe/.gradle/caches/transforms-3/c5bd0717b3b5f2efa6c59fdbef87a960/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/d-vipe/.gradle/caches/transforms-3/c5bd0717b3b5f2efa6c59fdbef87a960/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/d-vipe/.gradle/caches/transforms-3/1617e30e2f9e2d32ff9fe435f6732d84/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/d-vipe/.gradle/caches/transforms-3/1617e30e2f9e2d32ff9fe435f6732d84/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/d-vipe/.gradle/caches/transforms-3/b7b7b1f7f69a9e1f6e7e31e3ab89b610/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/d-vipe/.gradle/caches/transforms-3/b7b7b1f7f69a9e1f6e7e31e3ab89b610/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/d-vipe/.gradle/caches/transforms-3/ed402d05172dd4e7af86a48e73fe5061/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/d-vipe/.gradle/caches/transforms-3/ed402d05172dd4e7af86a48e73fe5061/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/d-vipe/.gradle/caches/transforms-3/49792711d5a3e1e8a5125d67813f3f0b/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/d-vipe/.gradle/caches/transforms-3/49792711d5a3e1e8a5125d67813f3f0b/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/a23822c5bdf431da63805dccbf6768dd/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/a23822c5bdf431da63805dccbf6768dd/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/04d54d3faf4fdb384f9ccc80000fa374/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/04d54d3faf4fdb384f9ccc80000fa374/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/52cfc28261bcc261c999aa7c0876b0ef/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/52cfc28261bcc261c999aa7c0876b0ef/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/9cc7f8dc3449db46289ee7aec82110cb/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/9cc7f8dc3449db46289ee7aec82110cb/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/dbca10d1db0ddd871189b27b8c183a0a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/d-vipe/.gradle/caches/transforms-3/dbca10d1db0ddd871189b27b8c183a0a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/d-vipe/.gradle/caches/transforms-3/0aecff7ac5377ecc85162c1512e696bf/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/d-vipe/.gradle/caches/transforms-3/0aecff7ac5377ecc85162c1512e696bf/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml
+activity#ru.runetsoft.gisogs_greenspacesapp.MainActivity
+ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:12:9-28:20
+	android:launchMode
+		ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:13:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:16:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:17:13-55
+	android:exported
+		ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:12:48-71
+	android:configChanges
+		ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:15:13-163
+	android:theme
+		ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:14:13-47
+	android:name
+		ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:12:19-47
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:22:13-23:57
+	android:resource
+		ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:23:17-54
+	android:name
+		ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:22:24-79
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:24:13-27:29
+action#android.intent.action.MAIN
+ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:25:17-68
+	android:name
+		ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:26:17-76
+	android:name
+		ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:26:27-74
+meta-data#flutterEmbedding
+ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:31:9-72
+	android:value
+		ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:31:52-69
+	android:name
+		ADDED from /Users/d-vipe/GitLab/gisogs_greenspacesapp/android/app/src/main/AndroidManifest.xml:31:20-51
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_crashlytics] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.6] /Users/d-vipe/.gradle/caches/transforms-3/b52b0969862e32513837f7c262358ec8/transformed/jetified-firebase-crashlytics-18.3.6/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.6] /Users/d-vipe/.gradle/caches/transforms-3/b52b0969862e32513837f7c262358ec8/transformed/jetified-firebase-crashlytics-18.3.6/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/d-vipe/.gradle/caches/transforms-3/0968305764a46605064b33f50c2d55fb/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/d-vipe/.gradle/caches/transforms-3/0968305764a46605064b33f50c2d55fb/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/d-vipe/.gradle/caches/transforms-3/7cc20a6818a23c6cd5242411cee7776a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/d-vipe/.gradle/caches/transforms-3/7cc20a6818a23c6cd5242411cee7776a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-crashlytics:18.3.6] /Users/d-vipe/.gradle/caches/transforms-3/b52b0969862e32513837f7c262358ec8/transformed/jetified-firebase-crashlytics-18.3.6/AndroidManifest.xml:16:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/d-vipe/.gradle/caches/transforms-3/7cc20a6818a23c6cd5242411cee7776a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/d-vipe/.gradle/caches/transforms-3/7cc20a6818a23c6cd5242411cee7776a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [:firebase_crashlytics] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_crashlytics] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_crashlytics] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_crashlytics] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-130
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_core] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:geolocator_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from [:geolocator_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-74
+service#com.baseflow.geolocator.GeolocatorLocationService
+ADDED from [:geolocator_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:56
+	android:enabled
+		ADDED from [:geolocator_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-35
+	android:exported
+		ADDED from [:geolocator_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-37
+	android:foregroundServiceType
+		ADDED from [:geolocator_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-53
+	android:name
+		ADDED from [:geolocator_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-77
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:file_picker] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-80
+MERGED from [:photo_manager] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/photo_manager/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-80
+MERGED from [:photo_manager] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/photo_manager/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from [:file_picker] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-77
+queries
+ADDED from [:file_picker] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-17:15
+intent#action:name:android.intent.action.GET_CONTENT+data:mimeType:*/*
+ADDED from [:file_picker] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:18
+action#android.intent.action.GET_CONTENT
+ADDED from [:file_picker] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-72
+	android:name
+		ADDED from [:file_picker] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:21-69
+data
+ADDED from [:file_picker] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+	android:mimeType
+		ADDED from [:file_picker] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:19-41
+uses-permission#android.permission.CAMERA
+ADDED from [:camera_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/camera_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from [:camera_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/camera_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [:camera_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/camera_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-71
+	android:name
+		ADDED from [:camera_android] /Users/d-vipe/GitLab/gisogs_greenspacesapp/build/camera_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-68
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/d-vipe/.gradle/caches/transforms-3/955b60c573648c92758f9e57794bc3b1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/d-vipe/.gradle/caches/transforms-3/955b60c573648c92758f9e57794bc3b1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/d-vipe/.gradle/caches/transforms-3/955b60c573648c92758f9e57794bc3b1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/d-vipe/.gradle/caches/transforms-3/955b60c573648c92758f9e57794bc3b1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/d-vipe/.gradle/caches/transforms-3/955b60c573648c92758f9e57794bc3b1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/d-vipe/.gradle/caches/transforms-3/955b60c573648c92758f9e57794bc3b1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+meta-data#com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar
+ADDED from [com.google.firebase:firebase-crashlytics:18.3.6] /Users/d-vipe/.gradle/caches/transforms-3/b52b0969862e32513837f7c262358ec8/transformed/jetified-firebase-crashlytics-18.3.6/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-crashlytics:18.3.6] /Users/d-vipe/.gradle/caches/transforms-3/b52b0969862e32513837f7c262358ec8/transformed/jetified-firebase-crashlytics-18.3.6/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-crashlytics:18.3.6] /Users/d-vipe/.gradle/caches/transforms-3/b52b0969862e32513837f7c262358ec8/transformed/jetified-firebase-crashlytics-18.3.6/AndroidManifest.xml:18:17-115
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-installations:17.1.3] /Users/d-vipe/.gradle/caches/transforms-3/0968305764a46605064b33f50c2d55fb/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/52b1d20a948af2da182f5eed49df9a19/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/52b1d20a948af2da182f5eed49df9a19/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/8436ed9d1d7abfe1f8673feeea5d64bb/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/8436ed9d1d7abfe1f8673feeea5d64bb/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.1.3] /Users/d-vipe/.gradle/caches/transforms-3/0968305764a46605064b33f50c2d55fb/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:9:22-76
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.1.3] /Users/d-vipe/.gradle/caches/transforms-3/0968305764a46605064b33f50c2d55fb/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.1.3] /Users/d-vipe/.gradle/caches/transforms-3/0968305764a46605064b33f50c2d55fb/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.1.3] /Users/d-vipe/.gradle/caches/transforms-3/0968305764a46605064b33f50c2d55fb/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/d-vipe/.gradle/caches/transforms-3/7cc20a6818a23c6cd5242411cee7776a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/d-vipe/.gradle/caches/transforms-3/7cc20a6818a23c6cd5242411cee7776a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/d-vipe/.gradle/caches/transforms-3/7cc20a6818a23c6cd5242411cee7776a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/d-vipe/.gradle/caches/transforms-3/7cc20a6818a23c6cd5242411cee7776a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/d-vipe/.gradle/caches/transforms-3/7cc20a6818a23c6cd5242411cee7776a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/d-vipe/.gradle/caches/transforms-3/7cc20a6818a23c6cd5242411cee7776a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/d-vipe/.gradle/caches/transforms-3/e002b9e8ecfab01cd0dd857cf529885c/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/d-vipe/.gradle/caches/transforms-3/e002b9e8ecfab01cd0dd857cf529885c/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/d-vipe/.gradle/caches/transforms-3/e002b9e8ecfab01cd0dd857cf529885c/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/d-vipe/.gradle/caches/transforms-3/e002b9e8ecfab01cd0dd857cf529885c/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/d-vipe/.gradle/caches/transforms-3/c9cacd907e5688cdd5c033c7071b8609/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/d-vipe/.gradle/caches/transforms-3/c9cacd907e5688cdd5c033c7071b8609/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/d-vipe/.gradle/caches/transforms-3/c9cacd907e5688cdd5c033c7071b8609/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/d-vipe/.gradle/caches/transforms-3/be3bcd0517804dbf961632d266e82a94/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/d-vipe/.gradle/caches/transforms-3/be3bcd0517804dbf961632d266e82a94/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/d-vipe/.gradle/caches/transforms-3/be3bcd0517804dbf961632d266e82a94/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+permission#ru.runetsoft.gisogs_greenspacesapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/d-vipe/.gradle/caches/transforms-3/be3bcd0517804dbf961632d266e82a94/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/d-vipe/.gradle/caches/transforms-3/be3bcd0517804dbf961632d266e82a94/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/d-vipe/.gradle/caches/transforms-3/be3bcd0517804dbf961632d266e82a94/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/d-vipe/.gradle/caches/transforms-3/be3bcd0517804dbf961632d266e82a94/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/d-vipe/.gradle/caches/transforms-3/be3bcd0517804dbf961632d266e82a94/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+uses-permission#ru.runetsoft.gisogs_greenspacesapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/d-vipe/.gradle/caches/transforms-3/be3bcd0517804dbf961632d266e82a94/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/d-vipe/.gradle/caches/transforms-3/be3bcd0517804dbf961632d266e82a94/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/52b1d20a948af2da182f5eed49df9a19/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/8436ed9d1d7abfe1f8673feeea5d64bb/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/8436ed9d1d7abfe1f8673feeea5d64bb/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/52b1d20a948af2da182f5eed49df9a19/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/52b1d20a948af2da182f5eed49df9a19/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/52b1d20a948af2da182f5eed49df9a19/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/52b1d20a948af2da182f5eed49df9a19/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/52b1d20a948af2da182f5eed49df9a19/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/8436ed9d1d7abfe1f8673feeea5d64bb/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/8436ed9d1d7abfe1f8673feeea5d64bb/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/8436ed9d1d7abfe1f8673feeea5d64bb/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/8436ed9d1d7abfe1f8673feeea5d64bb/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/8436ed9d1d7abfe1f8673feeea5d64bb/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/8436ed9d1d7abfe1f8673feeea5d64bb/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/d-vipe/.gradle/caches/transforms-3/8436ed9d1d7abfe1f8673feeea5d64bb/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
